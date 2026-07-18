@@ -1,0 +1,11 @@
+{
+  "name": "claude-token-usage-tabbar",
+  "version": "2.0.0",
+  "description": "macOS menu bar indicator for real Claude subscription usage (5h + weekly), via the OAuth usage endpoint.",
+  "private": true,
+  "bin": {
+    "claude-tokens-refresh": "lib/refresh.js",
+    "claude-tokens-bar": "lib/bar.js",
+    "claude-tokens-status": "lib/status.js"
+  }
+}
